@@ -15,7 +15,7 @@ resizeWithSharp = (path, width, height, callback, out) ->
       .resize width, height
       .withMetadata()
       .withoutEnlargement()
-      .toFormat 'png'
+      .png()
       .toBuffer (err, outputBuffer, info) ->
         if err
           return callback err

@@ -1,7 +1,7 @@
 {
   "name": "noflo-sharp",
   "description": "Fast image resizing components for NoFlo.",
-  "version": "0.1.3",
+  "version": "0.1.2",
   "author": {
     "name": "Vilson Vieira",
     "email": "vilson@void.cc",
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "noflo": "~0.5.11",
-    "sharp": "~0.9.3",
+    "sharp": "~0.7.1",
     "temporary": "0.0.8",
     "noflo-canvas": "~0.1.16"
   },
